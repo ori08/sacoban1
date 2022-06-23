@@ -1,0 +1,65 @@
+.wall {
+
+    background-image: url(pics/Wall.png);
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.floor {
+    background-image: url(pics/floor.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.target {
+    background-color: rgb(235, 232, 205);
+    background-image: url(pics/target.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.clock {
+    background-image: url(pics/clock.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+
+
+.cell {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+.table {
+    padding-top: 20px;
+    display: block;
+    -webkit-border-horizontal-spacing: 0px;
+    -webkit-border-vertical-spacing: 0px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+
+
+
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+body {
+
+    /* text-align: center; */
+}
